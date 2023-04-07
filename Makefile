@@ -7,6 +7,6 @@ compile:
 list:
 	sudo arduino-cli board list
 
-debug:
+monitor:
 	alacritty -e sudo screen /dev/ttyACM0 9600
 
